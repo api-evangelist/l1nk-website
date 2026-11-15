@@ -1,4 +1,4 @@
-# l1nk-website
+# L1NK
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-l1nk-website is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://l1nk.website/
+L1NK provides a short‑link service that emphasizes human traffic over bots. It offers customizable short URLs, QR codes, analytics on real visitors, and advanced features like password protection, expiration, and domain‑owning options. The platform integrates with AI assistants such as Claude and ChatGPT via its MCP, and supplies a REST API for developers to create and manage links programmatically. Documentation, pricing, and support are available on its site.
+
+**Areas:** ShortLinks · URLShortener · Analytics · QRCode · AIIntegration
+
+## L1NK on APIs.io
+
+Everything profiled for L1NK is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/l1nk-website/](https://apis.io/providers/l1nk-website/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [L1NK API](https://apis.io/apis/l1nk-website/l1nk-api/) — Developer API for creating and managing short links, QR codes, and analytics. Documentation is at https://l1nk.website/api/docs. No machine‑readable…
+- [L1NK API](https://apis.io/apis/l1nk-website/l1nk-website-api/) — L1NK API as documented publicly: 14 operations. Contract generated from the documentation by API Evangelist (2026-11-14); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiAnalyticsDailyResponse](https://apis.io/schemas/l1nk-website/l1nk-website-get-api-analytics-daily-response/)
+- [GetApiAnalyticsDimensionsResponse](https://apis.io/schemas/l1nk-website/l1nk-website-get-api-analytics-dimensions-response/)
+- [GetApiStatsShortcodeResponse](https://apis.io/schemas/l1nk-website/l1nk-website-get-api-stats-shortcode-response/)
+- [PatchApiLinksShortcodeRequest](https://apis.io/schemas/l1nk-website/l1nk-website-patch-api-links-shortcode-request/)
+- [PostApiWebhooksIdProbarResponse](https://apis.io/schemas/l1nk-website/l1nk-website-post-api-webhooks-id-probar-response/)
+- [PostApiWebhooksRequest](https://apis.io/schemas/l1nk-website/l1nk-website-post-api-webhooks-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [L1Nk Website Context](https://apis.io/jsonld/l1nk-website/l1nk-website-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [L1NK API Rules](https://apis.io/rules/l1nk-website/l1nk-website-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [L1NK Authentication](https://apis.io/security/l1nk-website/l1nk-website-authentication/)
+- [L1NK Domain Security](https://apis.io/security/l1nk-website/l1nk-website-domain-security/)
+- [L1NK Vulnerability Disclosure](https://apis.io/security/l1nk-website/l1nk-website-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [L1NK Plans Pricing](https://apis.io/plans/l1nk-website/l1nk-website-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://l1nk.website/)
+- [Documentation](https://l1nk.website/ayuda/)
+- [API reference](https://l1nk.website/api/docs)
+- [Pricing](https://l1nk.website/precios)
+- [Support](https://l1nk.website/en/help/)
+- [Changelog](https://l1nk.website/en/whats-new)
+- [Terms of service](https://l1nk.website/legal/terminos.html)
+- [Privacy policy](https://l1nk.website/legal/privacidad.html)
+
+## API Evangelist rating
+
+**Kin Score 50.7** — developing · rubric 0.28.0 · scored 2026-11-14
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 53.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.8 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 40.9 |
+
+**Agent readiness 23.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/l1nk-website/](https://apis.io/providers/l1nk-website/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for L1NK: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/l1nk-website/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
